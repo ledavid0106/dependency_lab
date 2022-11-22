@@ -15,6 +15,11 @@ public class Main {
         Robot robot_three = new Robot("Gamma",lightsaber);
         System.out.println(robot_three.name);
         robot_three.Attack();
+
+        Attacker robot_four = new Robot("Delta", bow);
+        Attacker human_one = new Human("One", 100);
+        robot_four.Attack();
+        human_one.Attack();
     }
 
 }
